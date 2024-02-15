@@ -1,7 +1,7 @@
-package model;
+package provesHerencia.herencia;
 
 
-public class A {
+public abstract class A {
     private String a;
 
 
@@ -21,6 +21,10 @@ public class A {
 
     public void setA(String a) {
         this.a = a;
+    }
+
+    public void retornaA(){
+        System.out.println("Estic en A");
     }
 
 }

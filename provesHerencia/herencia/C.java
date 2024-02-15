@@ -1,8 +1,11 @@
-package model;
+package provesHerencia.herencia;
 
 
 public class C extends A {
     public String c;
+
+    public C() {
+    }
 
     
     public C(String a, String c) {
